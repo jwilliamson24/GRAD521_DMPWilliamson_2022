@@ -34,7 +34,7 @@ Includes the coding and modeling that we create in RStudio after data collection
 
 ## Amount of data created
 |Category|Amount|Description|
-|-------:|-----:|----------:|
+|-------:|-----:|:----------|
 |1|	~400 KB	|Excel files for 7 years of salamander data and habitat data, R code files|
 |2|	>300 KB	|Excel files for 2 years of salamander data and habitat data|
 |3|	2-3 MB	|Fire severity maps and climate data csv files|
