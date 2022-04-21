@@ -1,25 +1,45 @@
 # Data description
 
 ## Research Question
-My research proposal is split into two chapters. The primary goal of my research is to determine how habitat changes due to timber harvest and wildfire impact salamander populations in western Oregon, and this portion of the project is referred to later as Chapter 1. I will be doing a resurvey building on a project my advisor completed from 2013-2019. This original project was focused on the impacts of timber harvest on salamander populations, and in 2020 many of those study sites burned. My goal is to go back into those plots and quantify the effects of both disturbances (harvest plus wildfire) on salamander occupancy and abundance, as well as compare results over time before and after the disturbances. All this research will require field work to collect data.
-The secondary goal of my research, referred to later as Chapter 2, is focused on determining the difference in detection probabilities of daytime and nighttime salamander survey methods. For this project I will be actively searching for salamanders (flipping logs, searching the forest floor) during the daytime and nighttime, in both spring and fall.
+My research proposal is split into two chapters. The primary goal of my research is to determine how habitat changes due to timber harvest and wildfire impact salamander populations in western Oregon, and this portion of the project is referred to later as Chapter 1. I will be doing a resurvey building on a project my advisor completed from 2013-2019. This original project was focused on the impacts of timber harvest on salamander populations, and in 2020 many of those study sites burned. My goal is to go back into those plots and quantify the effects of both disturbances (harvest plus wildfire) on salamander occupancy and abundance, as well as compare results over time before and after the disturbances. All this research will require field work to collect data. The secondary goal of my research, referred to later as Chapter 2, is focused on determining the difference in detection probabilities of daytime and nighttime salamander survey methods. For this project I will be actively searching for salamanders (flipping logs, searching the forest floor) during the daytime and nighttime, in both spring and fall.
 
 ## Data creation
-### Chapter 1: 
-My primary data collection will include three categories: salamander data (diversity, occupancy, and abundance), habitat data (downed wood abundance, size, decay class, % charcoal, duff depth, and canopy cover), and microclimate data (soil moisture, ambient temperature, and relative humidity). We will also compile site-level information from databases including fire severity, pre-fire stand age, basin temperature, precipitation, and vapor pressure deficit data. Additionally, I will be comparing my data to the pre-fire data that my advisor took to look at changes over time before and after disturbance. 
-The salamander data, habitat, and microclimate data will all be taken in the field on paper datasheets and transferred to excel files. We will also be using electronic data loggers to take temperature measurements over time under pieces of downed wood in some of our plots. All data will be observational; we are not experimentally altering any part of the project. During the field work, crews will be visiting a site and establishing seven random sublots. They will search each plot for 3 sequential 10-minute intervals to estimate individual detection probabilities from each species of salamander. Crews will record habitat information at the point of detection for all salamanders, including size, decay class, and pyrogenic carbon class of any associated downed wood. At each sub-plot within all sites, crews will record soil moisture at multiple depths using handheld volumetric soil moisture probes under and adjacent to downed wood structures, sub-plot canopy cover using densiometers, temperature and relative humidity using Kestrel fire weather meters, substrate type, and sampling time and date. Within each subplot, transects will be established and used to quantify and characterize the amount of downed wood in the plot.
-We will be using occupancy models (Mackenzie and Royle models) to analyze the salamander occupancy data in the context of the habitat covariates. I do not know how to do this but that is the plan.
 
-### Chapter 2: 
-I will only be collecting salamander data, which includes species, length measurements, and the substrate the individual was found on and/or under. There are long-term data loggers in place at our sites, and ongoing studies that have taken extensive microhabitat measurements, so we will need to access that data. This data will also be observational data taken in the field and then transferred to excel files.
+This project will utilize five categories of data:
+1.	Historic pre-fire data
+2.	Field data
+3.	Site-level information. 
+4.	Logger Data
+5.	Model data
 
-## Data size 
-### Chapter 1: 
-I plan to visit each of my 60 sites once and will be taking several points of data at 7 subplots in each site. Assuming I have three excel sheets, one each for salamander data, habitat data, and microclimate data, I expect each sheet to be between 25-50KB. The size of the salamander datasheet is dependent on the amount of salamanders we are able to collect data on. The other two sheets will be consistent, with the same habitat and microclimate data always taken at each subplot. I will be using data loggers to take long-term temperature readings, and I do not know how much data is produced from that yet. 
+### Category 1 
+Includes data was taken by my advisor. We have open access. These are compiled into excel datasheets. 
 
-### Chapter 2: 
-I will have nine sites, each with 2-3 subplots. I will visit each site at least four times. I will only take measurement data on each salamander found in each subplot, and the habitat data I will source from other existing data sets (though I’m not sure how yet). This excel sheet is likely to be 20-30KB.
-Total data is likely to be less than 200KB.
+### Category 2 
+Includes all the data we will be collecting for chapters 1 and 2 in the field. Including:
+a.	Salamander data (diversity, occupancy, and abundance) 
+b.	Habitat data (downed wood abundance, size, decay class, % charcoal, duff depth, and canopy cover)
+c.	Microclimate data (soil moisture, ambient temperature, and relative humidity) 
+
+These observational data will be taken in the field on paper datasheets and transferred to excel files. During the field work, crews will be visiting a site and establishing seven random sublots. They will search each subplot for 3 sequential 10-minute intervals to estimate individual detection probabilities from each species of salamander. Crews will record habitat information at the point of detection for all salamanders, including size, decay class, and pyrogenic carbon class of any associated downed wood. At each sub-plot within all sites, crews will record soil moisture at multiple depths using handheld volumetric soil moisture probes under and adjacent to downed wood structures, sub-plot canopy cover using densiometers, temperature and relative humidity using Kestrel fire weather meters, substrate type, and sampling time and date. Within each subplot, transects will be established and used to quantify and characterize the amount of downed wood in the plot. 
+
+### Category 3 
+Compiled from preexisting data for each site. This includes maps for fire severity, pre-fire stand age, basin temperature, precipitation, and vapor pressure deficit data. We will not collect these in the field.
+
+### Category 4 
+Data from electronic data loggers. These will take temperature measurements over time under pieces of downed wood in some of our plots. 
+
+### Category 5 
+Includes the coding and modeling that we create in RStudio after data collection. We will be using occupancy models (Mackenzie and Royle models) to analyze the salamander occupancy data in the context of the habitat covariates.
+
+## Amount of data created
+|Category|Amount|Description|
+|1|	~400 KB	|Excel files for 7 years of salamander data and habitat data, R code files|
+|2|	>300 KB	|Excel files for 2 years of salamander data and habitat data|
+|3|	2-3 MB	|Fire severity maps and climate data csv files|
+|4|	Unsure	|Unsure – waiting on advisor response|
+|5|	>100 KB	|Plain text files with R code|
+|Total| 	>3-4 MB	| |
 
 
 # Roles and responsibilities
