@@ -73,7 +73,9 @@ The digital excel files will be stored in three locations: a local copy will be 
 # Storage and security
 
 # Access and data sharing  
+
 Chapter 1: All types of data taken for this chapter will be taken on Weyerhaeuser land, and therefore will require approval from Weyerhaeuser personnel to publish per our contract. This includes the historical fire data, field data, site-level information, logger data, and model data. Determining the logistics of publication and licensing will require conversations with Weyerhaeuser and will be determined before my graduation in summer 2024. My advisor and I will both keep copies of these documents on personal drives and external storage devices.  
+
 Chapter 2: There are no factors that could limit the publishing of this data. It is taken on HJ Andrews LTER land, and they encourage open data publishing. This data will be published in the Andrews Forest data catalog by the time I graduate, in summer 2024. This data will be entirely in csv format using a CC0 license, and will only include field data. This will be preserved and archived within the Andrews Forest data catalog, where they have been storing data for more than 60 years. My advisor and I will both keep copies of these csv documents on personal drives and external storage devices.
 
 # Archiving and preservation
